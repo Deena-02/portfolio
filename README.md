@@ -28,27 +28,27 @@ A modern, responsive **developer portfolio** built with **React + Vite** to show
 
 ## 📸 Screenshots
 ### Homepage  
-![alt text](<WhatsApp Image 2025-09-16 at 21.47.55_c22b2263.jpg>)  
+![Homepage](src/assets/hero/Heropage.png)
+
 
 ### Projects  
-![alt text](<WhatsApp Image 2025-09-16 at 21.48.41_cfd9a881.jpg>)
+![Project1](src/assets/hero/project1.png)
 
-![alt text](<WhatsApp Image 2025-09-15 at 23.43.38_27b437a3.jpg>)
-
+![Project2](src/assets/hero/project2.png)
 ---
 
 ## 📂 Project Structure
 portfolio/
-│── src/
-│ ├── assets/ # Images & icons
-│ ├── components/ # Reusable UI components
-│ ├── data/ # JSON data for skills/projects
-│ ├── App.jsx # Main app component
-│ └── main.jsx # Entry point
-│── public/ # Static assets
-│── package.json
-│── vite.config.js
-└── README.md
+|──src
+| |── assets/ # Images & icons
+| |── components/ # Reusable UI components
+| |── data/ # JSON data for skills/projects
+| |── App.jsx # Main app component
+| |── main.jsx # Entry point
+|── public/ # Static assets
+|── package.json
+|── vite.config.js
+── README.md
 
 ---
 
