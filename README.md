@@ -28,13 +28,14 @@ A modern, responsive **developer portfolio** built with **React + Vite** to show
 
 ## 📸 Screenshots
 ### Homepage  
-![Homepage](src/assets/hero/Homepage.png)
+![Homepage](public/images/homePage.png)
 
 
 ### Projects  
-![Project1](src/assets/hero/project1.png)
+![project1](public/images/project1.png)
 
-![Project2](src/assets/hero/project2.png)
+
+![Project2](public/images/project2.png)
 ---
 
 ## 📬 Contact
