@@ -1,0 +1,30 @@
+[
+  {
+    "role": "Web Development Intern",
+    "organisation": "Apex Planet Pvt. Ltd.",
+    "startDate": "April, 2025",
+    "endDate": "May, 2025",
+    "experiences": [
+      "Developed responsive web pages and worked on both frontend and backend tasks during a 6-week internship."
+    ]
+  },
+  {
+    "role": "Green Skills using AI Intern",
+    "organisation": "Shell-Edunet Skills4Future AICTE Internship",
+    "startDate": "July, 2025",
+    "endDate": "August, 2025",
+    "experiences": [
+      "Built AI-based solutions for environmental sustainability using IBM Watson, Cloud Foundry, and Python."
+    ]
+  },
+  
+  {
+    "role": "MERN Intern",
+    "organisation": "SmartBridge Educational Services Pvt. Ltd",
+    "startDate": "June, 2025",
+    "endDate": "August, 2025",
+    "experiences": [
+      "Developed BookNest, a full-stack MERN application with Google Books API integration and JWT authentication."
+    ]
+  }
+]

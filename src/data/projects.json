@@ -1,0 +1,17 @@
+[
+  {
+    "title": "BookNest",
+    "description": "A full-stack book management app built using the MERN stack with Google Books API integration.",
+    "skills": ["React", "Node.js", "Express.js", "MongoDB", "REST API", "JWT", "Tailwind CSS", "Git", "Postman", "HTML", "CSS", "JavaScript"],
+    "demo": "https://book-nest-smart-bridge.vercel.app/",
+    "source": "https://github.com/LEKKALA-BHASKAR/BookNest-SmartBridge.git"
+  },
+  {
+    "title": "Student Management System",
+    "imageSrc": "projects/projects2.png.webp",
+    "description": "A student management app built with Spring Boot, React, and MySQL for CRUD operations and a responsive UI.",
+    "skills": ["Spring Boot", "React", "Hibernate/JPA", "MySQL", "REST API", "Maven", "Git", "Postman", "HTML", "CSS", "JavaScript"],
+    "demo": "http://localhost:8080/students",
+    "source": "https://github.com/Deena-02/student-Management-System.git"
+  }
+]
