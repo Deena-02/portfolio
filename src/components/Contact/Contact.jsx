@@ -14,7 +14,7 @@ export const Contact = () => {
       <ul className={styles.links}>
         <li className={styles.link}>
           <FaEnvelope className={styles.icon} />
-          <a href="mailto:myemail@email.com">deena1202m@gmail.com</a>
+          <a href="mailto:deena1202m@gmail.com">deena1202m@gmail.com</a>
         </li>
         <li className={styles.link}>
           <FaLinkedin className={styles.icon} />
