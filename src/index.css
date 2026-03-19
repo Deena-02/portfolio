@@ -8,3 +8,20 @@
 html {
   scroll-behavior: smooth;
 }
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  background-color: var(--color-bg);
+  background-image:
+    radial-gradient(circle at 18% 12%, var(--bg-glow-1) 0%, rgba(0, 198, 255, 0) 32%),
+    radial-gradient(circle at 82% 88%, var(--bg-glow-2) 0%, rgba(129, 210, 237, 0) 38%),
+    linear-gradient(135deg, var(--bg-gradient-start) 0%, var(--bg-gradient-mid) 48%, var(--bg-gradient-end) 100%);
+  background-attachment: fixed;
+  color: var(--color-text);
+  transition: 0.3s;
+}

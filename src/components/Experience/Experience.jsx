@@ -6,29 +6,35 @@ export const Experience = () => {
   return (
     <section className={styles.container} id="experience">
       <h2 className={styles.title}>Experience</h2>
-      <div className={styles.content}>
-        <ul className={styles.aboutItems}>
-          {history.map((historyItem, id) => {
-            return (
-              <li key={id} className={styles.aboutItem}>
-                {/* You can re-enable the logo if you want later */}
-                {/* <img
-                  src={getImageUrl(historyItem.imageSrc)}
-                  alt={`${historyItem.organisation} Logo`}
-                /> */}
-                <div className={styles.aboutItemText}>
-                  <h3>{`${historyItem.role}, ${historyItem.organisation}`}</h3><br/>
-                  <p>{`${historyItem.startDate} - ${historyItem.endDate}`}</p><br/>
-                  <ul>
-                    {historyItem.experiences.map((experience, expId) => (
-                      <li key={expId}>{experience}</li>
-                    ))}
-                  </ul>
-                </div>
-              </li>
-            );
-          })}
-        </ul>
+
+      <div className={styles.timeline}>
+        {history.map((item, index) => (
+          <div key={index} className={styles.card}>
+            
+            {/* LEFT TIMELINE LINE + DOT */}
+            <div className={styles.timelineLeft}>
+              <div className={styles.dot}></div>
+              <div className={styles.line}></div>
+            </div>
+
+            {/* CONTENT */}
+            <div className={styles.content}>
+              <div className={styles.header}>
+                <h3>{item.role}</h3>
+                <span>{item.startDate} - {item.endDate}</span>
+              </div>
+
+              <h4>{item.organisation}</h4>
+
+              <ul>
+                {item.experiences.map((exp, i) => (
+                  <li key={i}>✔ {exp}</li>
+                ))}
+              </ul>
+            </div>
+
+          </div>
+        ))}
       </div>
     </section>
   );

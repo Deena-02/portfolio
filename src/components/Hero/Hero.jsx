@@ -1,25 +1,54 @@
 import React from "react";
-
 import styles from "./Hero.module.css";
-//import { getImageUrl } from "../../utils";
+import heroImage from "../../assets/hero/heroImage.jpg";
 
 export const Hero = () => {
   return (
     <section className={styles.container}>
       <div className={styles.content}>
-        <h1 className={styles.title}>M Deena</h1>
+        
+        {/* NAME */}
+        <h1 className={styles.title}>
+          Hi, I'm <span>Deena</span>
+        </h1>
+
+        {/* ROLE */}
+        <h2 className={styles.subtitle}>
+          Full Stack Developer | MERN | AI Enthusiast
+        </h2>
+
+        {/* DESCRIPTION */}
         <p className={styles.description}>
-          I'm a passionate full-stack developer skilled in React and NodeJS. I'm eager to learn, grow, and contribute to exciting projects. Let's connect!
+          I build scalable, real-world web applications using the MERN stack,
+          with hands-on experience in REST APIs, JWT authentication, and real-time systems.
+          Passionate about solving problems and creating impactful digital solutions.
         </p>
-        <a href="mailto:deena1202m@gmail.com" className={styles.contactBtn}>
-          Contact Me
-        </a>
+
+        {/* BUTTONS */}
+        <div className={styles.actions}>
+          <a href="mailto:deena1202m@gmail.com" className={styles.primaryBtn}>
+            Contact Me
+          </a>
+
+          <a
+            href="https://github.com/Deena-02"
+            target="_blank"
+            rel="noreferrer"
+            className={styles.secondaryBtn}
+          >
+            View GitHub
+          </a>
+        </div>
       </div>
-      {/* <img
-        src={getImageUrl("hero/heroImage.png")}
-        alt="Hero image of me"
+
+      {/* RIGHT IMAGE */}
+      <img
+        src={heroImage}
+        alt="Hero"
         className={styles.heroImg}
-      /> */}
+      />
+      {/* RIGHT IMAGE */}
+      
       <div className={styles.topBlur} />
       <div className={styles.bottomBlur} />
     </section>

@@ -1,17 +1,26 @@
 [
   {
     "title": "BookNest",
+    "imageSrc": "projects/booknest.jpeg",
     "description": "A full-stack book management app built using the MERN stack with Google Books API integration.",
-    "skills": ["React", "Node.js", "Express.js", "MongoDB", "REST API", "JWT", "Tailwind CSS", "Git", "Postman", "HTML", "CSS", "JavaScript"],
+    "skills": ["React", "Node.js", "Express.js","JWT", "MongoDB", "REST API", "Tailwind CSS", "Postman","Git", "HTML", "CSS", "JavaScript"],
     "demo": "https://book-nest-smart-bridge.vercel.app/",
-    "source": "https://github.com/LEKKALA-BHASKAR/BookNest-SmartBridge.git"
+    "source": "https://github.com/Deena-02/BookNest"
   },
   {
-    "title": "Student Management System",
-    "imageSrc": "projects/projects2.png.webp",
-    "description": "A student management app built with Spring Boot, React, and MySQL for CRUD operations and a responsive UI.",
-    "skills": ["Spring Boot", "React", "Hibernate/JPA", "MySQL", "REST API", "Maven", "Git", "Postman", "HTML", "CSS", "JavaScript"],
-    "demo": "http://localhost:8080/students",
-    "source": "https://github.com/Deena-02/student-Management-System.git"
-  }
+  "title": "Student Management System",
+  "imageSrc": "projects/sms.jpeg",
+  "description": "A full-stack student management system using MERN stack to perform CRUD operations on student records. Implemented RESTful APIs and responsive UI for seamless user experience.",
+  "skills": ["MongoDB", "Express.js", "React", "Node.js", "REST API", "JWT", "JavaScript", "Git", "Postman"],
+  "demo": "https://your-deployed-link.com",
+  "source": "https://github.com/yourusername/student-management-mern"
+},
+{
+  "title": "To-Do List Application",
+  "imageSrc": "projects/todo.jpeg",
+  "description": "Built a dynamic to-do list web application using MERN stack, enabling users to create, update, and delete tasks with real-time UI updates and API integration.",
+  "skills": ["MongoDB", "Express.js", "React", "Node.js", "REST API", "Context API", "HTML", "CSS", "JavaScript", "Git"],
+  "demo": "https://your-deployed-link.com",
+  "source": "https://github.com/yourusername/todo-mern-app"
+}
 ]

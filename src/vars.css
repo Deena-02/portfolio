@@ -1,11 +1,16 @@
-:root{
-    /* Colors */
-    --color-text: #fff;
-    --color-primary: #576cbc;
-    --color-secondary: #19376d;
-    --color-dark: #0b2447;
-    --color-bg: #04152d;
+:root {
+  /* Colours */
+  --color-text: #fff;
+  --color-primary: #576cbc;
+  --color-secondary: #81d2ed;
+  --color-dark: #0b2447;
+  --color-bg: #071326;
+  --bg-gradient-start: #071326;
+  --bg-gradient-mid: #0a1f3f;
+  --bg-gradient-end: #041024;
+  --bg-glow-1: rgba(0, 198, 255, 0.22);
+  --bg-glow-2: rgba(129, 210, 237, 0.16);
 
-    /* Fonts */
-    --font-robot:"Roboto";
+  /* Fonts */
+  --font-roboto: "Roboto";
 }

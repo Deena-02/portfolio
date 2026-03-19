@@ -1,97 +1,88 @@
 @import "../../vars.css";
 
 .container {
-  position: relative;
-  background-color: rgba(12, 12, 12, 0.6);
-  border-radius: 15px;
-  padding: 73px;
-  margin-top: 129px;
-  z-index: 1;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin: 100px 10%;
+  text-align: center;
 }
 
 .title {
   color: var(--color-text);
-  font-size: 35px;
+  font-size: 38px;
   font-weight: 700;
-  letter-spacing: 1.75px;
+  margin-bottom: 40px;
   text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
-.content {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+/* GRID LAYOUT */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
 }
 
-.aboutItems {
-  color: var(--color-text);
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
-}
-
-.aboutItem {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
+/* CARD STYLE */
+.card {
+  background: rgba(0, 0, 0, 0);
   border-radius: 20px;
-  list-style: none;
   padding: 25px;
-  background-image: linear-gradient(
-    90deg,
-    rgba(165, 215, 232, 0.42) 0%,
-    rgba(255, 255, 255, 0) 100%
-  );
-  background-size: 0 100%;
-  background-repeat: no-repeat;
-  transition: 0.4s;
+  text-align: left;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(10px);
 }
 
-.aboutItem:hover {
-  background-size: 100% 100%;
+.card:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
 }
 
-.aboutItemText h3 {
-  font-size: 25px;
-  font-weight: 600;
-  margin-bottom: 8px;
-}
-
-.aboutItemText p {
+/* TOP SECTION */
+.top h3 {
   font-size: 20px;
-  line-height: 1.6;
+  margin: 10px 0 5px;
+  color: var(--color-text);
 }
 
-.aboutItemText a {
+.top h4 {
+  font-size: 16px;
   color: var(--color-secondary);
-  font-weight: 500;
-  text-decoration: underline;
-  transition: color 0.3s ease;
+  margin-bottom: 10px;
 }
 
-.aboutItemText a:hover {
-  color: var(--color-accent);
+/* BADGE */
+.badge {
+  background: linear-gradient(90deg, #00c6ff, #0072ff);
+  color: white;
+  font-size: 12px;
+  padding: 5px 10px;
+  border-radius: 20px;
 }
 
-@media screen and (max-width: 830px) {
-  .container {
-    background-color: transparent;
-    padding-left: 0;
-    padding-right: 0;
-  }
+/* DESCRIPTION */
+.card p {
+  font-size: 15px;
+  color: #ccc;
+  line-height: 1.5;
+  margin: 15px 0;
+}
 
-  .content {
-    flex-direction: column;
-  }
+/* LINK */
+.card a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #00c6ff;
+  transition: 0.3s;
+}
 
-  .aboutItems {
-    margin-top: 29px;
-  }
+.card a:hover {
+  color: var(--color-secondary);
+  letter-spacing: 1px;
+}
 
-  .aboutItem {
-    padding-left: 0;
-    padding-right: 0;
+/* RESPONSIVE */
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 30px;
   }
 }
