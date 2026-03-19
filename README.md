@@ -5,7 +5,7 @@ A modern, responsive **developer portfolio** built with **React + Vite** to show
 ---
 
 ## 🚀 Live Demo
-🔗 [View Portfolio](#) *(Update this once you deploy)*
+🔗 [View Portfolio](https://portfoliodeena.netlify.app)
 
 ---
 
